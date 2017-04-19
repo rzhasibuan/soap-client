@@ -1,0 +1,23 @@
+{
+    "name": "sugeng/soap-client",
+    "description": "Laravel Soap Client for FORLAP application support PHP 7",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^5.5.9 || ^7.0",
+        "illuminate/support": "^5.1",
+        "codecasts/nusoap-php7": "^0.9.7"
+    },
+    "authors": [
+        {
+            "name": "Sugeng Supriyadi",
+            "email": "me@sugeng.me"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Sugeng\\Soap\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
