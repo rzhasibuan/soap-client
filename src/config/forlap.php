@@ -6,8 +6,8 @@
  */
 
 return [
-    'url'           => env('FORLAP_URL', 'http://118.97.84.34:8082/ws/live.php?wsdl'),
-    'username'      => env('FORLAP_USERNAME', '031014'),
-    'password'      => env('FORLAP_PASSWORD', '130613'),
+    'url'           => env('FORLAP_URL', 'http://localhost:8082/ws/live.php?wsdl'),
+    'username'      => env('FORLAP_USERNAME', ''),
+    'password'      => env('FORLAP_PASSWORD', ''),
     'token-name'    => env('FORLAP_TOKEN', 'forlap-token')
 ];
