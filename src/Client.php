@@ -76,7 +76,7 @@ class Client
     {
         $token = $this->proxy->GetToken($this->config['username'], $this->config['password']);
 
-        cache([$this->config['token-name'] => $token], Carbon::now()->addMinute(10));
+        cache([$this->config['token-name'] => $token], Carbon::now()->addMinute(60));
 
         $this->token = $token;
     }
