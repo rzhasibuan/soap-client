@@ -4,8 +4,8 @@
     "type": "library",
     "license": "MIT",
     "require": {
-        "php": "^5.5.9 || ^7.0",
-        "illuminate/support": "^5.1",
+        "php": ">=7.0",
+        "illuminate/support": "5.5.x",
         "codecasts/nusoap-php7": "^0.9.7"
     },
     "authors": [
@@ -19,5 +19,19 @@
             "Sugeng\\Soap\\": "src/"
         }
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.0-dev"
+        },
+        "laravel": {
+            "providers": [
+                "Sugeng\\SoapSoapClientServiceProvider"
+            ],
+            "aliases": {
+                "Soap": "Sugeng\\Soap\\SoapFacade"
+            }
+        }
+    }
 }

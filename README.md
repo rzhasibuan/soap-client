@@ -33,6 +33,9 @@ Simpan kemudian lakukan `composer update`
 
 #### Service Provider
 
+##### Auto Discovery
+Jika Anda menggunakan Laravel 5.5 composer akan otomatis menambahkan dan mengaktifkan package.
+
 Buka `config/app.php` dengan text editor lalu tambahkan service provider pada bagian provider
 
 ```
