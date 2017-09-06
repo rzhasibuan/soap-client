@@ -27,7 +27,7 @@
         },
         "laravel": {
             "providers": [
-                "Sugeng\\SoapSoapClientServiceProvider"
+                "Sugeng\\Soap\\SoapClientServiceProvider"
             ],
             "aliases": {
                 "Soap": "Sugeng\\Soap\\SoapFacade"
